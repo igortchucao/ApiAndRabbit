@@ -1,0 +1,34 @@
+﻿{
+  // ... outras configurações ...
+
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:12345/",
+      "sslPort": 44311,
+      "launchUrl": "swagger"
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "InProcess",
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:12345/"
+    },
+    "Teste.Api": {
+      // Configurações específicas do perfil
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001/swagger;http://localhost:5000/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

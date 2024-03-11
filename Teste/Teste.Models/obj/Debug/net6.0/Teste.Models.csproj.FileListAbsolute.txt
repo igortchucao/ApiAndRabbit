@@ -1,0 +1,11 @@
+C:\Users\igors\source\repos\Teste\Teste.Models\bin\Debug\net6.0\Teste.Models.deps.json
+C:\Users\igors\source\repos\Teste\Teste.Models\bin\Debug\net6.0\Teste.Models.dll
+C:\Users\igors\source\repos\Teste\Teste.Models\bin\Debug\net6.0\Teste.Models.pdb
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\Teste.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\Teste.Models.AssemblyInfoInputs.cache
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\Teste.Models.AssemblyInfo.cs
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\Teste.Models.csproj.CoreCompileInputs.cache
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\Teste.Models.dll
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\refint\Teste.Models.dll
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\Teste.Models.pdb
+C:\Users\igors\source\repos\Teste\Teste.Models\obj\Debug\net6.0\ref\Teste.Models.dll

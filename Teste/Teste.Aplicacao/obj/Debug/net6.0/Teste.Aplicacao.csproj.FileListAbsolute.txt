@@ -1,0 +1,15 @@
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\bin\Debug\net6.0\Teste.Aplicacao.deps.json
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\bin\Debug\net6.0\Teste.Aplicacao.dll
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\bin\Debug\net6.0\Teste.Aplicacao.pdb
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.AssemblyInfo.cs
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.dll
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\refint\Teste.Aplicacao.dll
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.pdb
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\ref\Teste.Aplicacao.dll
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\bin\Debug\net6.0\Teste.Models.dll
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\bin\Debug\net6.0\Teste.Models.pdb
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\igors\source\repos\Teste\Teste.Aplicacao\obj\Debug\net6.0\Teste.Ap.83F7F482.Up2Date
