@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Teste.Models
-build_property.ProjectDir = C:\Users\igors\source\repos\Teste\Teste.Models\
+build_property.ProjectDir = C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Models\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

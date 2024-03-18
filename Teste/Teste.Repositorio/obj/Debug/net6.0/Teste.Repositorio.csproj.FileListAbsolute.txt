@@ -1,0 +1,16 @@
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\bin\Debug\net6.0\Teste.Repositorio.deps.json
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\bin\Debug\net6.0\Teste.Repositorio.dll
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\bin\Debug\net6.0\Teste.Repositorio.pdb
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\bin\Debug\net6.0\Teste.Models.dll
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\bin\Debug\net6.0\Teste.Models.pdb
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.csproj.AssemblyReference.cache
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.AssemblyInfoInputs.cache
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.AssemblyInfo.cs
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.sourcelink.json
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Re.B43D9432.Up2Date
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.dll
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\refint\Teste.Repositorio.dll
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\Teste.Repositorio.pdb
+C:\Users\igors\Documents\GitHub\ApiAndRabbit\Teste\Teste.Repositorio\obj\Debug\net6.0\ref\Teste.Repositorio.dll

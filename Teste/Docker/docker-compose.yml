@@ -1,0 +1,33 @@
+﻿version: '3.7'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.15.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+  rabbitmq:
+    image: rabbitmq:3.12-management
+    tty: true
+    hostname: rabbitmq
+    container_name: rabbitmq               
+    ports: 
+      - 5672:5672                 
+      - 15672:15672  
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=123456
+  redis:
+    image: redis
+    command: redis-server 
+    ports:
+      - "6379:6379"
+
+volumes:
+  elasticsearch-data:
+    driver: local

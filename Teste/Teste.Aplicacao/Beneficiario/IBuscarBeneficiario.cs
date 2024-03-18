@@ -1,9 +1,10 @@
-﻿using Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Models;
 
 namespace Teste.Aplicacao.Beneficiarios
 {
     public interface IBuscarBeneficio
     {
-        Task<Beneficiario> BuscarBeneficiarioAsync(string cpf);
+        Task<IActionResult> BuscarBeneficiarioAsync(string cpf);
     }
 }

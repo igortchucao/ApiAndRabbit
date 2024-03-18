@@ -1,5 +1,7 @@
 ﻿using Microsoft.OpenApi.Models;
 using Teste.Aplicacao;
+using Teste.Repositorio.Repository;
+using Teste.Repositorio.Service;
 
 public class Startup
 {
@@ -14,6 +16,9 @@ public class Startup
     {
         services.AddAuthorization();
         services.AddControllers();
+
+        services.AddSingleton<ICacheRedis, CacheRedis>();
+        services.AddSingleton<IElasticsearchRepo, ElasticsearchRepo>();
 
         var classeBaseType = typeof(BaseRota);
         var types = classeBaseType.Assembly.ExportedTypes//.ToList()[0];

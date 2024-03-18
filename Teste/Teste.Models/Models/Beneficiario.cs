@@ -5,7 +5,7 @@ namespace Models
     public class Beneficiario
     {
         [JsonPropertyName("data")]
-        public Data Data { get; set; }
+        public Data Data { get; set; } = new Data();
         
         public Beneficiario() { }
     }

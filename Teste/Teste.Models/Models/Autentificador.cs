@@ -5,7 +5,7 @@ namespace Teste.Models.Models
     public class Autentificador
     {
         [JsonPropertyName("data")]
-        public Data Data { get; set; }
+        public Data Data { get; set; } = new Data();
     }
 
     public class Data

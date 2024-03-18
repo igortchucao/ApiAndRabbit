@@ -1,6 +1,31 @@
 [
   {
     "ContainingType": "Teste.Controllers.BeneficiarioController.BeneficiarioController",
+    "Method": "GetElasticsearchAsync",
+    "RelativePath": "api/Beneficiario/elasticsearch/lerLista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Teste.Controllers.BeneficiarioController.BeneficiarioController",
     "Method": "GetAsync",
     "RelativePath": "api/Beneficiario/obter/{cpf}",
     "HttpMethod": "GET",
@@ -13,6 +38,56 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Teste.Controllers.BeneficiarioController.BeneficiarioController",
+    "Method": "GetLerAsync",
+    "RelativePath": "api/Beneficiario/rabbit/ler",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Teste.Controllers.BeneficiarioController.BeneficiarioController",
+    "Method": "PostPreencherAsync",
+    "RelativePath": "rabbit/preencher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.Void",

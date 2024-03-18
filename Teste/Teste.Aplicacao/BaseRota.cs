@@ -3,21 +3,24 @@ using System.Text.Json;
 using System.Text;
 using Teste.Models.Models;
 
-namespace Teste.Aplicacao
+namespace Teste.Aplicacao;
+
+public class BaseRota : IBaseRota 
 {
-    public class BaseRota : IBaseRota
+    public string ApiUrl { get; set; }
+
+    public readonly IConfiguration _configuration;
+    public Autentificador Token { get; set; } = new Autentificador();
+
+    public BaseRota(IConfiguration configuration)
     {
-        public string ApiUrl { get; set; }
-        public readonly IConfiguration _configuration;
-        public string Token { get; set; }
+        _configuration = configuration;
+        ApiUrl = _configuration["apiUrl"];
+    }
 
-        public BaseRota(IConfiguration configuration)
-        {
-            _configuration = configuration;
-            ApiUrl = _configuration["apiUrl"];
-        }
-
-        public async Task AutentificarAsync()
+    public async Task AutentificarAsync()
+    {
+        if(Token is null || Token.Data.ExpirenIn <= DateTime.Now)
         {
             try
             {
@@ -36,8 +39,7 @@ namespace Teste.Aplicacao
                     var response = await client.PostAsync(ApiUrl + "api/v1/token", content);
 
                     string jsonResponse = await response.Content.ReadAsStringAsync();
-                    Autentificador auth = JsonSerializer.Deserialize<Autentificador>(jsonResponse);
-                    Token = auth.Data.Token;
+                    Token = JsonSerializer.Deserialize<Autentificador>(jsonResponse);
 
                 }
             }catch
