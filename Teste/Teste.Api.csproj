@@ -9,21 +9,25 @@
   <ItemGroup>
     <Compile Remove="Teste.Aplicacao\**" />
     <Compile Remove="Teste.Controllers\**" />
+    <Compile Remove="Teste.Frontend\**" />
     <Compile Remove="Teste.Models\**" />
     <Compile Remove="Teste.Repositorio\**" />
     <Compile Remove="Teste.TesteUnitarios\**" />
     <Content Remove="Teste.Aplicacao\**" />
     <Content Remove="Teste.Controllers\**" />
+    <Content Remove="Teste.Frontend\**" />
     <Content Remove="Teste.Models\**" />
     <Content Remove="Teste.Repositorio\**" />
     <Content Remove="Teste.TesteUnitarios\**" />
     <EmbeddedResource Remove="Teste.Aplicacao\**" />
     <EmbeddedResource Remove="Teste.Controllers\**" />
+    <EmbeddedResource Remove="Teste.Frontend\**" />
     <EmbeddedResource Remove="Teste.Models\**" />
     <EmbeddedResource Remove="Teste.Repositorio\**" />
     <EmbeddedResource Remove="Teste.TesteUnitarios\**" />
     <None Remove="Teste.Aplicacao\**" />
     <None Remove="Teste.Controllers\**" />
+    <None Remove="Teste.Frontend\**" />
     <None Remove="Teste.Models\**" />
     <None Remove="Teste.Repositorio\**" />
     <None Remove="Teste.TesteUnitarios\**" />

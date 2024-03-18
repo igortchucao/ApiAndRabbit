@@ -40,7 +40,7 @@ public class BeneficiarioController : ControllerBase
     /// <returns>Ok ou badRequst</returns>
 
     [HttpPost]
-    [Route("/rabbit/preencher")]
+    [Route("rabbit/preencher")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> PostPreencherAsync()

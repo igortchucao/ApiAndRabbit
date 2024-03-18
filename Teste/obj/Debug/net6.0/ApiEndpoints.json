@@ -83,7 +83,7 @@
   {
     "ContainingType": "Teste.Controllers.BeneficiarioController.BeneficiarioController",
     "Method": "PostPreencherAsync",
-    "RelativePath": "rabbit/preencher",
+    "RelativePath": "api/Beneficiario/rabbit/preencher",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

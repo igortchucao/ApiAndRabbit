@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row mt-3">
+    <div class="col-lg-6 text-right">
+        <button type="button" class="btn btn-outline btn-primary" id="btnPreecherRabbit">
+            <i class="fa fa-plus"></i> Preencher Rabbit
+        </button>
+        <button type="button" class="btn btn-outline btn-primary" id="btnLerRabbit">
+            <i class="fa fa-pencil"></i> Ler Rabbit
+        </button>
+        <button type="button" class="btn btn-outline btn-danger" id="btnLerApi">
+            <i class="fa fa-trash"></i> Ler da Api
+        </button>
+    </div>
+
+    <div>
+        <h1>Beneficiario</h1>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/js/Pagina/JavaPagina.js" asp-append-version="true"></script>
+}
